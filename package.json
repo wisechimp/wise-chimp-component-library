@@ -1,11 +1,14 @@
 {
-  "name": "wise-chimp-component-library",
+  "name": "@wisechimp/wise-chimp-component-library",
   "version": "0.0.1",
   "description": "A library of components used by Wise Chimp.",
   "scripts": {
     "rollup": "rollup -c"
   },
-  "repository": "Something, something, something github or npm",
+  "repository": "https://github.com/wisechimp/wise-chimp-component-library",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/wisechimp"
+  },
   "author": "Wise Chimp",
   "license": "MIT",
   "devDependencies": {
