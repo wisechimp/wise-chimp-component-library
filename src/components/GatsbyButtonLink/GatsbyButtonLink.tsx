@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import styles from './gatsbybuttonlink.module.css'
+import './gatsbybuttonlink.css'
 
 interface GatsbyButtonLinkProps {
   target: string,
@@ -9,7 +9,7 @@ interface GatsbyButtonLinkProps {
 }
 
 const ButtonLink = ({ target, text }: GatsbyButtonLinkProps) => {
- <div className={styles.gatsbyLinkButt}>
+ <div className='.gatsbyLinkButt'>
    <Link to={target}>{text}</Link>
  </div>
 }
