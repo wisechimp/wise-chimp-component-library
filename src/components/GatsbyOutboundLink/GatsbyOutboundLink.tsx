@@ -1,6 +1,8 @@
 import React from 'react'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
+import styles from './gatsbyoutboundlink.module.css'
+
 interface GatsbyOutboundLinkProps {
   link: string,
   linkText: string
