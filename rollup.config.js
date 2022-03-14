@@ -24,13 +24,13 @@ export default [
     plugins: [
       resolve(),
       commonjs(),
-      postcss(),
       typescript({ tsconfig: "./tsconfig.json" }),
+      postcss(),
     ],
   },
   {
     input: "dist/esm/types/index.d.ts",
-    output: [{ file: "dist/index.d.ts", format: "ems" }],
+    output: [{ file: "dist/index.d.ts", format: "esm" }],
     plugins: [dts()],
     external: [/\.css$/],
   },

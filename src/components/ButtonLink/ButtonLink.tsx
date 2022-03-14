@@ -8,9 +8,10 @@ interface ButtonLinkProps {
 }
 
 const ButtonLink = ({ target, text }: ButtonLinkProps) => {
- <div className='.buttonLink'>
+  return (
+ <div className='buttonLink'>
    <a href={target}>{text}</a>
  </div>
-}
+)}
 
 export default ButtonLink
