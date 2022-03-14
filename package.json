@@ -1,6 +1,6 @@
 {
   "name": "@wisechimp/wise-chimp-component-library",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A library of components used by Wise Chimp.",
   "scripts": {
     "rollup": "rollup -c"
@@ -29,8 +29,5 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts",
-  "dependencies": {
-    "gatsby": "^4.9.3"
-  }
+  "types": "dist/index.d.ts"
 }
