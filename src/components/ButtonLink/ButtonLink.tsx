@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './buttonlink.css'
+import './buttonlink.scss'
 
 interface ButtonLinkProps {
   target: string,
