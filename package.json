@@ -1,6 +1,6 @@
 {
   "name": "@wisechimp/wise-chimp-component-library",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "A library of components used by Wise Chimp.",
   "scripts": {
     "rollup": "rollup -c",
@@ -28,6 +28,7 @@
     "@storybook/addon-links": "^6.4.19",
     "@storybook/builder-webpack5": "^6.4.19",
     "@storybook/manager-webpack5": "^6.4.19",
+    "@storybook/preset-scss": "^1.0.3",
     "@storybook/react": "^6.4.19",
     "@storybook/testing-library": "^0.0.9",
     "@testing-library/react": "^12.1.4",
@@ -47,7 +48,7 @@
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-terser": "^7.0.2",
-    "sass": "^1.49.9",
+    "sass": "^1.49.10",
     "sass-loader": "^12.6.0",
     "style-loader": "^3.3.1",
     "tslib": "^2.3.1",
