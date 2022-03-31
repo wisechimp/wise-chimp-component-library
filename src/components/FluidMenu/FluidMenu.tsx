@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import Hamburger from './Hamburger'
 import MenuLink from './MenuLink'
 
-import './menu.scss'
+import './fluidmenu.scss'
 
 interface MenuLinkObject {
   key: number,
@@ -11,12 +11,12 @@ interface MenuLinkObject {
   linkText: string
 }
 
-interface MenuProps {
+interface FluidMenuProps {
   pageTitle: string
   menuLinks: Array<MenuLinkObject | Array<MenuLinkObject>>
 }
 
-const Menu = ({ pageTitle, menuLinks }: MenuProps) => {
+const Menu = ({ pageTitle, menuLinks }: FluidMenuProps) => {
   const [flippingBurger, setFlippingBurger] = useState(false)
 
   const drawerHandler = () => {

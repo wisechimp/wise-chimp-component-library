@@ -1,17 +1,17 @@
 import React from 'react'
 import { ComponentStory, ComponentMeta } from '@storybook/react'
-import Menu from './Menu'
+import FluidMenu from './FluidMenu'
 
 export default {
-  title: "WiseChimpComponentLibrary/Menu",
-  component: Menu,
-} as ComponentMeta<typeof Menu>
+  title: "WiseChimpComponentLibrary/FluidMenu",
+  component: FluidMenu,
+} as ComponentMeta<typeof FluidMenu>
 
-const Template: ComponentStory<typeof Menu> = (args) => <Menu {...args}/>
+const Template: ComponentStory<typeof FluidMenu> = (args) => <FluidMenu {...args}/>
 
-export const GenericMenu = Template.bind({})
+export const GenericFluidMenu = Template.bind({})
 
-GenericMenu.args = {
+GenericFluidMenu.args = {
   pageTitle: "Generic Project",
   menuLinks: [
     {
