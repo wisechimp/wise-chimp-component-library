@@ -1,6 +1,6 @@
 {
   "name": "@wisechimp/wise-chimp-component-library",
-  "version": "0.0.10",
+  "version": "0.1.1",
   "description": "A library of components used by Wise Chimp.",
   "scripts": {
     "rollup": "rollup -c",
